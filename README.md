@@ -2,7 +2,7 @@
 
 A domain-specific **healthcare chatbot** built by fine-tuning **TinyLlama-1.1B-Chat** on a curated medical Q&A dataset using **LoRA (Low-Rank Adaptation)** — a parameter-efficient fine-tuning method that enables training on free-tier Google Colab GPUs.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reennee/HealthBot_AI_2.0/blob/main/Backend/Healthbot_Finetuning.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reennee/HealthBot_AI_2.0/blob/main/Healthbot-Finetuning.ipynb)
 
 > **Demo Video**: *https://drive.google.com/file/d/1eqxEdM_px920NlpG42GQrXLtFYCk2E5C/view?usp=sharing*
 
