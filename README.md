@@ -4,7 +4,7 @@ A domain-specific **healthcare chatbot** built by fine-tuning **TinyLlama-1.1B-C
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reennee/HealthBot_AI_2.0/blob/main/Backend/HealthBot_FineTuning.ipynb)
 
-> **Demo Video**: *[Link to demo video — add after recording]*
+> **Demo Video**: *https://drive.google.com/file/d/1eqxEdM_px920NlpG42GQrXLtFYCk2E5C/view?usp=sharing*
 
 ---
 
