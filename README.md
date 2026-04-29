@@ -27,6 +27,17 @@ A domain-specific **healthcare chatbot** built by fine-tuning **TinyLlama-1.1B-C
 
 HealthBot AI 2.0 fine-tunes a generative language model for the **healthcare domain** so it can accurately answer medical questions about symptoms, diagnoses, treatments, pharmacology, and physiology. The project uses:
 
+### Problem Statement
+Current Large Language Models (LLMs) face a "Medical Accessibility Gap" characterized by three primary challenges:
+
+1. Computational Barriers: State-of-the-art medical LLMs often require massive hardware clusters, making them inaccessible for local deployment in resource-constrained clinics or on mobile devices.
+
+2. Generalization vs. Precision: General-purpose small language models (SLMs) frequently "hallucinate" or provide vague advice when asked complex medical questions, lacking the domain-specific vocabulary required for clinical accuracy.
+
+3. The Finetuning Bottleneck: Traditional full-parameter finetuning on medical datasets is computationally expensive and prone to "catastrophic forgetting," where the model loses its conversational abilities while trying to learn specialized facts.
+
+HealthBot AI 2.0 addresses these issues by proving that a lightweight (1.1B parameter) model can be transformed into a high-precision medical assistant using LoRA (Low-Rank Adaptation). This approach achieves domain-specific expertise while maintaining a tiny memory footprint, allowing for high-performance medical AI to run on consumer-grade or even free-tier cloud hardware.
+
 - **Generative QA approach** — the model generates free-text answers rather than extracting spans
 - **LoRA (PEFT)** — only 1.13% of parameters are trained, making fine-tuning feasible on a T4 GPU
 - **4-bit quantization** — reduces the 1.1B parameter model from ~4.4 GB to ~1.1 GB in memory
