@@ -27,7 +27,8 @@ A domain-specific **healthcare chatbot** built by fine-tuning **TinyLlama-1.1B-C
 
 HealthBot AI 2.0 fine-tunes a generative language model for the **healthcare domain** so it can accurately answer medical questions about symptoms, diagnoses, treatments, pharmacology, and physiology. The project uses:
 
-### Problem Statement
+### Problem Statement
+
 Current Large Language Models (LLMs) face a "Medical Accessibility Gap" characterized by three primary challenges:
 
 1. Computational Barriers: State-of-the-art medical LLMs often require massive hardware clusters, making them inaccessible for local deployment in resource-constrained clinics or on mobile devices.
